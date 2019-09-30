@@ -32,7 +32,7 @@ function [] = iterative(x0, l, r, epsilon);
         xnArr = [xnArr; double(xn)];
         xnp1Arr = [xnp1Arr; double(xnp1)];
         
-        %fplot(xnp1, f(xnp1), 'pr');
+        fplot(xnp1, f(xnp1), 'pr');
     end
     %disp(double(xnp1));
     disp(n);
